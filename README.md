@@ -50,4 +50,10 @@ localhost:3000/events
 localhost:3001/eventos
 
 -- Next
->
+>docker compose exec nextjs bash
+>npm install
+>npm run dev
+localhost:3002
+
+-- Kong
+localhost:8002
